@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sugar to Honey Converter</title>
+
+
+
+<script src="js.js" language="javascript" type="text/javascript">
+</script>
+<style type="text/css">
+body
+{
+    margin: 10%;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+    
+}
+
+h1
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 200;
+}
+
+input, option, button, select
+{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   font-size: 1em;
+}
+
+#result
+{
+    font-size: 3em;
+}
+</style>
+</head>
+
+<body id="content">
+	
+    	<h1>Sugar to Honey Converter</h1>
+
+   		
+    
+        <input type="text" id="x" />
+        <select id="equation">
+            <option value="tablespoons">tablespoons</option>
+
+<option value="cups">cups</option>
+</select>
+<br/>
+        <input id="calc" type="button" value="Convert" onclick="calculate()" />
+        <input id="reset" type="button" value="Reset" onclick="reset()" />
+        <div id="main">Convert to ML</div>
+        <div id="result"></div>
+</body>
+</html>
